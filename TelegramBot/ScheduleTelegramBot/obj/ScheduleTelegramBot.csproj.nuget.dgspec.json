@@ -1,0 +1,313 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot\\ScheduleTelegramBot.csproj": {}
+  },
+  "projects": {
+    "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Application\\ScheduleTelegramBot.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Application\\ScheduleTelegramBot.Application.csproj",
+        "projectName": "ScheduleTelegramBot.Application",
+        "projectPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Application\\ScheduleTelegramBot.Application.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Domain\\ScheduleTelegramBot.Domain.csproj": {
+                "projectPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Domain\\ScheduleTelegramBot.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[19.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Domain\\ScheduleTelegramBot.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Domain\\ScheduleTelegramBot.Domain.csproj",
+        "projectName": "ScheduleTelegramBot.Domain",
+        "projectPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Domain\\ScheduleTelegramBot.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Infrastructure\\ScheduleTelegramBot.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Infrastructure\\ScheduleTelegramBot.Infrastructure.csproj",
+        "projectName": "ScheduleTelegramBot.Infrastructure",
+        "projectPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Infrastructure\\ScheduleTelegramBot.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Application\\ScheduleTelegramBot.Application.csproj": {
+                "projectPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Application\\ScheduleTelegramBot.Application.csproj"
+              },
+              "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Domain\\ScheduleTelegramBot.Domain.csproj": {
+                "projectPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Domain\\ScheduleTelegramBot.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot\\ScheduleTelegramBot.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot\\ScheduleTelegramBot.csproj",
+        "projectName": "ScheduleTelegramBot",
+        "projectPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot\\ScheduleTelegramBot.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Application\\ScheduleTelegramBot.Application.csproj": {
+                "projectPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Application\\ScheduleTelegramBot.Application.csproj"
+              },
+              "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Infrastructure\\ScheduleTelegramBot.Infrastructure.csproj": {
+                "projectPath": "D:\\Программирование\\C#\\Projects\\ScheduleTelegramBot\\TelegramBot\\ScheduleTelegramBot.Infrastructure\\ScheduleTelegramBot.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.22, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[19.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
